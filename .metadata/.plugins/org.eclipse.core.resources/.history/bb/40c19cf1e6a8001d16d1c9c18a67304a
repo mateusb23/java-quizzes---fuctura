@@ -1,0 +1,7 @@
+package exercicio1modulo3.exceptions;
+
+public class InvalidValueException {
+
+	
+	
+}
