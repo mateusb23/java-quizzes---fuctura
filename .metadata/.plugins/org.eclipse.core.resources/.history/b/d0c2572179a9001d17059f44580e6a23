@@ -7,6 +7,8 @@ import exercicio1modulo3.services.ServiceAddNumbers;
 public class Program {
 
 	public static void main(String[] args) throws InterruptedException {
+
+		 long startTime = System.nanoTime();
 		
         var serviceAddNumbers = new ServiceAddNumbers();
 

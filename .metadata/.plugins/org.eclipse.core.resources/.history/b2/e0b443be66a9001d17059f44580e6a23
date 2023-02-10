@@ -46,7 +46,6 @@ public class ServiceAddNumbers extends Numbers {
                 int number = parseInt(scan.nextLine());
 
                 if (number < 0) {
-                	System.out.println();
                     throw new InvalidValueException();
                 }
 

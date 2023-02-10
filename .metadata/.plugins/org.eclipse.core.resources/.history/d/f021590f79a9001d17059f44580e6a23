@@ -1,12 +1,15 @@
 package exercicio1modulo3.application;
 
 import java.util.Comparator;
+import java.util.concurrent.TimeUnit;
 
 import exercicio1modulo3.services.ServiceAddNumbers;
 
 public class Program {
 
 	public static void main(String[] args) throws InterruptedException {
+
+		 long startTime = System.nanoTime();
 		
         var serviceAddNumbers = new ServiceAddNumbers();
 

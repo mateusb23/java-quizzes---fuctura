@@ -21,12 +21,10 @@ public class ServiceAddNumbers extends Numbers {
                 }
                 return parseInt(amount);
             } catch (NumberFormatException e) {
-            	System.out.println();
                 e.printStackTrace();
                 System.out.println("Incorrect value, enter an integer number!");
                 System.out.println();
             } catch (InvalidValueException e) {
-            	System.out.println();
                 e.printStackTrace();
                 System.out.println("--- It is not allowed to enter integers less than or equal to 1, or greater than 10⁵ ---");
                 System.out.println();
@@ -46,7 +44,6 @@ public class ServiceAddNumbers extends Numbers {
                 int number = parseInt(scan.nextLine());
 
                 if (number < 0) {
-                	System.out.println();
                     throw new InvalidValueException();
                 }
 
@@ -54,12 +51,10 @@ public class ServiceAddNumbers extends Numbers {
                 i++;
 
             } catch (NumberFormatException e) {
-            	System.out.println();
                 e.printStackTrace();
                 System.out.println("Incorrect value, enter an integer number!");
                 System.out.println();
             } catch (InvalidValueException e) {
-            	System.out.println();
                 e.printStackTrace();
                 System.out.println("--- It is not allowed to enter negative numbers ---");
                 System.out.println();

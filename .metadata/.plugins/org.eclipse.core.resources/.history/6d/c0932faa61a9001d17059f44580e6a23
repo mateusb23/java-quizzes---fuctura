@@ -6,8 +6,8 @@ import exercicio1modulo3.services.ServiceAddNumbers;
 
 public class Program {
 
-	public static void main(String[] args) throws InterruptedException {
-		
+	public static void main(String[] args) {
+
         var serviceAddNumbers = new ServiceAddNumbers();
 
        serviceAddNumbers.insertValues();
